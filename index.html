@@ -19,6 +19,15 @@
             <img src="https://c.tenor.com/q51RixeCmn8AAAAC/eren-headspin-spinning.gif">
             <br>
             <br>
+            <center>You witnessed <b id = "spins"></b> spins!</center>
+            <script>
+                let myVar = setInterval(myTimer, 300);
+                let i = 0;
+                function myTimer() {
+                  document.getElementById("spins").innerHTML = i++;
+                }
+                </script>
+                <br>
             <center>Temple Industries ©️ 2022</center>
         </div>
     </body>
