@@ -1,4 +1,4 @@
---rbxsig%OOaVkxtXXOMacFqvWFiEEjGwKET9Lkoso7P31fdFUG8AJqkhUZYfJ2v70UIaAxBD/X1kEJWaCmjQPvmRKj1Hxyx5UmCfj0HJ0HBBuFm3IqteonWr5QKq6fGYGqFIclLNaBZbVgKUFfqKdfxsxkUY1PIb4hOYiGbdyTVnxlttrzo=%
+--rbxsig%gkwEm+xrFQ/Tj6rhWxWF3+21WlaOKVnHvJMr09lGuOVJ00nduly+GiBqEiNeBfKZ0eJrdj/M70yYqNFwSOZModa1xeygLSCRCd2/+pyqwg9d+v/1+nlmq0vw2MVNnpU+omee6PzIeWWxAm2lo7reAPUGm+TO6s80vS4GMt6luxk=%
 local Players = game:GetService("Players")
 local NetworkClient = game:GetService("NetworkClient")
 local ScriptContext = game:GetService("ScriptContext")
@@ -6,22 +6,22 @@ local ScriptContext = game:GetService("ScriptContext")
 -- 1320 for mid 2014 corescripts and 2006 for late 2014
 ScriptContext:AddStarterScript(2006)
 
-NetworkClient:PlayerConnect(353, "147.185.221.229", 60526)
+NetworkClient:PlayerConnect(826, "147.185.221.212", 14026)
 
 local LocalPlayer = Players.LocalPlayer
-LocalPlayer.Name = "Aesthetiful"
-LocalPlayer.CharacterAppearance = "http://tadah.rocks/users/353/character?tick=" .. tick()
+LocalPlayer.Name = "HookedVm"
+LocalPlayer.CharacterAppearance = "http://tadah.rocks/users/826/character?tick=" .. tick()
 
 local PlayerToken = Instance.new("StringValue", LocalPlayer)
 PlayerToken.Name = "token"
-PlayerToken.Value = "FpW6shqn1UIw6b5hOcfu"
+PlayerToken.Value = "0Aks7Ugn355SM49YIwoI"
 
 pcall(function() LocalPlayer:SetMembershipType(0) end)
 pcall(function() LocalPlayer:SetSuperSafeChat(false) end)
 pcall(function() Players:SetChatStyle(2) end)
 
-pcall(function() game:SetCreatorId(1555, Enum.CreatorType.User) end)
-pcall(function() game:SetPlaceId(732) end)
+pcall(function() game:SetCreatorId(353, Enum.CreatorType.User) end)
+pcall(function() game:SetPlaceId(727) end)
 
 game:SetMessage("Connecting to server")
 
