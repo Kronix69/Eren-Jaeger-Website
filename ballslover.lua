@@ -1,4 +1,4 @@
---rbxsig%jf7mRT/qm1JSQz2PuEOtZvQufquXzX7Md+bZ00xHbqtjymCidkjx0bWTqn3DJNEImgMZ9EvWkBny3YQ/rfpxOfA9DOZeArur/EV+slgd1aDeD8OpXerAvM8J3/u+WYg4b1S83+LEoJPoHiSg+IgJZcOq5m4x6eEs1SFclAIntYU=%
+--rbxsig%OOaVkxtXXOMacFqvWFiEEjGwKET9Lkoso7P31fdFUG8AJqkhUZYfJ2v70UIaAxBD/X1kEJWaCmjQPvmRKj1Hxyx5UmCfj0HJ0HBBuFm3IqteonWr5QKq6fGYGqFIclLNaBZbVgKUFfqKdfxsxkUY1PIb4hOYiGbdyTVnxlttrzo=%
 local Players = game:GetService("Players")
 local NetworkClient = game:GetService("NetworkClient")
 local ScriptContext = game:GetService("ScriptContext")
@@ -14,7 +14,7 @@ LocalPlayer.CharacterAppearance = "http://tadah.rocks/users/353/character?tick="
 
 local PlayerToken = Instance.new("StringValue", LocalPlayer)
 PlayerToken.Name = "token"
-PlayerToken.Value = "LazmlernNzYP206nqHh3"
+PlayerToken.Value = "FpW6shqn1UIw6b5hOcfu"
 
 pcall(function() LocalPlayer:SetMembershipType(0) end)
 pcall(function() LocalPlayer:SetSuperSafeChat(false) end)
